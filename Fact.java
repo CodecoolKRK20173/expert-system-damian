@@ -1,9 +1,10 @@
-
+import java.util.Set;
 
 public class Fact {
 
     private String value;
     private String description;
+    private String id;
     
 
     public Fact(String id, String description) {
@@ -12,7 +13,7 @@ public class Fact {
     }
 
     public Set<String> getIdSet() {
-
+        return null;
     }
 
     public void setFactValueById(String id, boolean value) {
@@ -20,7 +21,7 @@ public class Fact {
     }
 
     public boolean getValueById(String id) {
-        return value;
+        return true;
     }
 
     public String getDescription() {
