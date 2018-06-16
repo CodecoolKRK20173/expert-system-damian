@@ -22,5 +22,14 @@ public class RuleParser {
     }
 
 
+    public void loadXmlDocument(String xmlPath) {
+
+    }
+
+    public void addQuestionsToRepository() {
+        
+    }
+
+
 
 }

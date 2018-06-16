@@ -1,6 +1,9 @@
-
+import java.util.List;
 
 public class MultipleValue extends Value {
+
+    private boolean selectionType;
+    private List<String> params;
 
     public MultipleValue(List<String> params, boolean selectionType) {
         this.params = params;
@@ -8,7 +11,7 @@ public class MultipleValue extends Value {
     }
 
     public List<String> getInputPattern() {
-        
+        return params;
     }
 
     public boolean getSelectionType() {

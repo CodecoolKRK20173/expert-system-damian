@@ -22,10 +22,10 @@ public class FactParser {
     }
 
 
-    @Override
-    public void loadXmlDocument(String xmlPath) {
-
-    }
+//    @Override
+//    public void loadXmlDocument(String xmlPath) {
+//
+//    }
 
     
     public static void main(String[] args) {

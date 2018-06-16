@@ -13,19 +13,17 @@ public class RuleRepository {
         this.questionIterator = new QuestionIterator();
     }
 
-
     public Map<String, Question> createRuleRepository() {
         Map<String, Question> ruleRepository = new HashMap<>();
         return ruleRepository;
     }
 
-
     public void addQuestion(Question question) {
-
+        ruleRepository.put(question.getId(), question);
     }
 
     public Iterator<Question> getIterator() {
-        
+        return questionIterator;
     }
 
 
