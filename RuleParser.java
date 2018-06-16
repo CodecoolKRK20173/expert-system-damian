@@ -27,7 +27,7 @@ public class RuleParser {
     }
 
     public void addQuestionsToRepository() {
-        
+
     }
 
 
