@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class FactIterator implements Iterator {
+public class FactIterator implements Iterator<Fact> {
 
 
 

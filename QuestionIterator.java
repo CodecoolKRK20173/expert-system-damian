@@ -1,10 +1,10 @@
 import java.util.Iterator;
 
 
-public class QuestionIterator implements Iterator {
+public class QuestionIterator implements Iterator<Question>{
 
     public QuestionIterator() {
-        
+
     }
 
     @Override
