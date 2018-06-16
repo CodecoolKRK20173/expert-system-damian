@@ -24,7 +24,7 @@ public class FactParser {
 
     @Override
     public void loadXmlDocument(String xmlPath) {
-        
+
     }
 
     

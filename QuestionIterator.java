@@ -3,6 +3,10 @@ import java.util.Iterator;
 
 public class QuestionIterator implements Iterator {
 
+    public QuestionIterator() {
+        
+    }
+
     @Override
     public boolean hasNext() {
         return false;
