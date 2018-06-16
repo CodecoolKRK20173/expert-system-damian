@@ -1,7 +1,8 @@
-
-
+import java.util.Iterator;
 
 public class FactRepository {
+
+    private Iterator<Fact> iterator;
 
     public FactRepository() {
         
@@ -13,7 +14,7 @@ public class FactRepository {
     }
 
     public Iterator<Fact> getIterator() {
-        
+        return iterator;
     }
 
 

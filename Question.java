@@ -8,7 +8,6 @@ public class Question {
     private Answer answer;
 
 
-
     public Question(String id, String question, Answer answer) {
         this.id = id;
         this.question = question;
@@ -16,19 +15,19 @@ public class Question {
     }
 
     public String getId() {
-
+        return id;
     }
 
     public String getQuestion() {
-
+        return question;
     }
 
     public Answer getAnswer() {
-
+        return answer;
     }
 
     public boolean getEvaluatedAnswer(String input) {
-
+        return true;
     }
 
 

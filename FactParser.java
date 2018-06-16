@@ -9,17 +9,23 @@ import java.io.File;
 
 public class FactParser {
 
-    // private FactRepository factRepository;
+    private FactRepository factRepository;
 
 
-    // public FactParser() {
-    //     this.factRepository = getFactRepository();
-    // }
+    public FactParser() {
+     this.factRepository = getFactRepository();
+    }
 
 
-    // public FactRepository getFactRepository() {
-    //     return new FactRepository();        
-    // }
+    public FactRepository getFactRepository() {
+     return new FactRepository();
+    }
+
+
+    @Override
+    public void loadXmlDocument(String xmlPath) {
+        
+    }
 
     
     public static void main(String[] args) {
