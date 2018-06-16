@@ -13,7 +13,7 @@ public class QuestionIterator implements Iterator<Question>{
     }
 
     @Override
-    public Object next() {
+    public Question next() {
         return null;
     }
 }

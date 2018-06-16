@@ -14,7 +14,7 @@ public class FactIterator implements Iterator<Fact> {
     }
 
     @Override
-    public Object next() {
+    public Fact next() {
         return null;
     }
 }
